@@ -6,21 +6,21 @@ int s;
 
 int main()
 {
-	scanf("%d", &s);
+    scanf("%d", &s);
 
-	if (s == 12 || s == 1 || s == 2)
-	{
-		printf("winter\n");
-	}
-	else
+    if (s == 12 || s == 1 || s == 2)
     {
-        if (s == 3 || s ==4 || s==5)
+        printf("winter\n");
+    }
+    else
+    {
+        if (s == 3 || s == 4 || s == 5)
         {
             printf("spring\n");
         }
         else
         {
-            if(s == 6 || s== 7 || s== 8)
+            if (s == 6 || s == 7 || s == 8)
             {
                 printf("summer\n");
             }
@@ -30,6 +30,7 @@ int main()
             }
         }
     }
+    
 }
 
 /*
